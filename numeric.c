@@ -3166,6 +3166,9 @@ int_int_p(VALUE num)
  *     int.odd?  ->  true or false
  *
  *  Returns +true+ if +int+ is an odd number.
+ *
+ *     5.odd?    #=> true
+ *     10.odd?   #=> false
  */
 
 static VALUE
